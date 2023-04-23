@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Data.iml" filepath="$PROJECT_DIR$/.idea/Spring-Data.iml" />
       <module fileurl="file://$PROJECT_DIR$/_01.DB Apps Introduction-Lab/_01.DB Apps Introduction-Lab.iml" filepath="$PROJECT_DIR$/_01.DB Apps Introduction-Lab/_01.DB Apps Introduction-Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02.Java DB Apps Introduction-Exercise/_02.Java DB Apps Introduction-Exercise.iml" filepath="$PROJECT_DIR$/_02.Java DB Apps Introduction-Exercise/_02.Java DB Apps Introduction-Exercise.iml" />
     </modules>
   </component>
 </project>
