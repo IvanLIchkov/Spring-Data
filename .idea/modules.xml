@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/_05_Introduction to Hibernate/IntroductionToHibernate.iml" filepath="$PROJECT_DIR$/_05_Introduction to Hibernate/IntroductionToHibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Data.iml" filepath="$PROJECT_DIR$/.idea/Spring-Data.iml" />
       <module fileurl="file://$PROJECT_DIR$/_01.DB Apps Introduction-Lab/_01.DB Apps Introduction-Lab.iml" filepath="$PROJECT_DIR$/_01.DB Apps Introduction-Lab/_01.DB Apps Introduction-Lab.iml" />
       <module fileurl="file://$PROJECT_DIR$/_02.Java DB Apps Introduction-Exercise/_02.Java DB Apps Introduction-Exercise.iml" filepath="$PROJECT_DIR$/_02.Java DB Apps Introduction-Exercise/_02.Java DB Apps Introduction-Exercise.iml" />

@@ -5,7 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/_03.ORM Fundamentals/pom.xml" />
+        <option value="$PROJECT_DIR$/_04.Workshop Custom OR/pom.xml" />
+        <option value="$PROJECT_DIR$/_05_Introduction to Hibernate/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/_04.Workshop Custom OR/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
