@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="introtohibernate" />
         <module name="IntroductionToHibernate" />
         <module name="ORMFundamentals" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ExerciseIntroductionToHibernate" target="18" />
       <module name="WorkshopCustomOR" target="18" />
     </bytecodeTargetLevel>
   </component>
