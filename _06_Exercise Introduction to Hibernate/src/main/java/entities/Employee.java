@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 @Entity
 @Table(name = "employees")
@@ -127,5 +128,12 @@ public class Employee {
 
     public void setProjects(Set<Project> projects) {
         this.projects = projects;
+    }
+
+    @Override
+    public String toString(){
+
+        return String.format("%s %s %s %n",firstName,lastName,getDepartment().getName())+
+                projects.stream().map(Project::getName).sorted().collect(Collectors.joining("\n"));
     }
 }

@@ -28,10 +28,7 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema">
-            <name qname="minions_db" />
-            <name qname="soft_uni" />
-          </node>
+          <node kind="schema" qname="soft_uni" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
