@@ -28,7 +28,10 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="soft_uni" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="relations" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

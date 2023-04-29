@@ -9,6 +9,7 @@
         <module name="introtohibernate" />
         <module name="IntroductionToHibernate" />
         <module name="ORMFundamentals" />
+        <module name="HibernateCodeFirst" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
