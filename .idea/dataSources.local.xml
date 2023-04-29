@@ -30,7 +30,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="relations" />
+            <name qname="gringotts" />
           </node>
         </introspection-scope>
       </schema-mapping>
