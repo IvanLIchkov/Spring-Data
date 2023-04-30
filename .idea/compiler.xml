@@ -7,15 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="introtohibernate" />
+        <module name="FootbalBettingDatabase" />
         <module name="IntroductionToHibernate" />
+        <module name="GringottsDatabase" />
+        <module name="University" />
+        <module name="SalesDatabase" />
+        <module name="HibernateCodeFirst" />
+        <module name="introtohibernate" />
         <module name="ORMFundamentals" />
-        <module name="HibernateCodeFirstExercise" />
-        <module name="GringottsDatabse" />
+        <module name="Hospital" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ExerciseIntroductionToHibernate" target="18" />
+      <module name="GringottsDatabse" target="18" />
       <module name="WorkshopCustomOR" target="18" />
     </bytecodeTargetLevel>
   </component>
