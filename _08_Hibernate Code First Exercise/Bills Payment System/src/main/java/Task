@@ -1,0 +1,7 @@
+
+In the database, you should keep information about the users who are using that
+system (first name, last name, email, password, billing details).
+Every billing detail has number and owner.
+Also, there are two types of billing details - credit card and bank account.
+The credit card has card type, expiration month, expiration year.
+And the bank account has bank name and SWIFT code.
