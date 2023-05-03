@@ -30,7 +30,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="hospital" />
+            <name qname="spring_demo" />
           </node>
         </introspection-scope>
       </schema-mapping>
