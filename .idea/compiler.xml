@@ -10,6 +10,7 @@
         <module name="FootbalBettingDatabase" />
         <module name="SpringDataIntroductionExercise" />
         <module name="IntroductionToHibernate" />
+        <module name="UserSystem" />
         <module name="SalesDatabase" />
         <module name="HibernateCodeFirst" />
         <module name="SpringDataIntroduction" />
@@ -32,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookshopSystem" options="-parameters" />
       <module name="SpringDataIntroduction" options="-parameters" />
+      <module name="UserSystem" options="-parameters" />
     </option>
   </component>
 </project>
