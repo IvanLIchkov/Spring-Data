@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="shampoo_company" />
+            <name qname="bookshopSystem" />
           </node>
         </introspection-scope>
       </schema-mapping>
