@@ -18,6 +18,7 @@
         <module name="_12_SpringDataAdvancedQueringExercise" />
         <module name="BillsPaymentSystem" />
         <module name="GringottsDatabase" />
+        <module name="_13_Springdataautomapping" />
         <module name="University" />
         <module name="advquerying" />
         <module name="introtohibernate" />
@@ -41,6 +42,7 @@
       <module name="_11_Spring Data Advanced Quering" options="-parameters" />
       <module name="_11_SpringDataAdvancedQuering" options="-parameters" />
       <module name="_12_SpringDataAdvancedQueringExercise" options="-parameters" />
+      <module name="_13_Springdataautomapping" options="-parameters" />
       <module name="advquerying" options="-parameters" />
     </option>
   </component>
