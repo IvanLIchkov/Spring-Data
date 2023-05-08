@@ -19,6 +19,7 @@
         <module name="BillsPaymentSystem" />
         <module name="GringottsDatabase" />
         <module name="_13_Springdataautomapping" />
+        <module name="SpringDataAutomapping" />
         <module name="University" />
         <module name="advquerying" />
         <module name="introtohibernate" />
@@ -29,20 +30,27 @@
     <bytecodeTargetLevel>
       <module name="_11_Spring Data Advanced Quering" target="1.6" />
       <module name="_11_SpringDataAdvancedQuering" target="17" />
+      <module name="_14_Spring Data Automapping Exercise" target="17" />
+      <module name="_14_SpringDataAutomappingExercise" target="17" />
       <module name="ExerciseIntroductionToHibernate" target="18" />
       <module name="GringottsDatabse" target="18" />
+      <module name="Spring Data automappin Exe" target="17" />
       <module name="WorkshopCustomOR" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookshopSystem" options="-parameters" />
+      <module name="Spring Data automappin Exe" options="-parameters" />
+      <module name="SpringDataAutomapping" options="-parameters" />
       <module name="SpringDataIntroduction" options="-parameters" />
       <module name="UserSystem" options="-parameters" />
       <module name="_11_Spring Data Advanced Quering" options="-parameters" />
       <module name="_11_SpringDataAdvancedQuering" options="-parameters" />
       <module name="_12_SpringDataAdvancedQueringExercise" options="-parameters" />
       <module name="_13_Springdataautomapping" options="-parameters" />
+      <module name="_14_Spring Data Automapping Exercise" options="-parameters" />
+      <module name="_14_SpringDataAutomappingExercise" options="-parameters" />
       <module name="advquerying" options="-parameters" />
     </option>
   </component>

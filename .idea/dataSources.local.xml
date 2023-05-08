@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="model_mapping" />
+            <name qname="game_store" />
           </node>
         </introspection-scope>
       </schema-mapping>
