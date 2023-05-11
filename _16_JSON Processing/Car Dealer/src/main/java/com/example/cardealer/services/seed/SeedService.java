@@ -1,4 +1,4 @@
-package com.example.cardealer.services;
+package com.example.cardealer.services.seed;
 
 import org.springframework.stereotype.Service;
 

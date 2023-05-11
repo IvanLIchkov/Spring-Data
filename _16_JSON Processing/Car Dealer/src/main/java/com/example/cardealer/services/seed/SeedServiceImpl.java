@@ -1,4 +1,4 @@
-package com.example.cardealer.services;
+package com.example.cardealer.services.seed;
 
 import com.example.cardealer.entities.car.Car;
 import com.example.cardealer.entities.car.CarImportDto;

@@ -1150,207 +1150,250 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="336" parent="330" name="id">
+    <table id="336" parent="294" name="supplier_parts">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="337" parent="330" name="id">
       <AutoIncrement>359</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="337" parent="330" name="make">
+    <column id="338" parent="330" name="make">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="338" parent="330" name="model">
+    <column id="339" parent="330" name="model">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="339" parent="330" name="travelled_distance">
+    <column id="340" parent="330" name="travelled_distance">
       <DasType>bigint|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="340" parent="330" name="PRIMARY">
+    <index id="341" parent="330" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="341" parent="330" name="PRIMARY">
+    <key id="342" parent="330" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="342" parent="331" name="car_id">
+    <column id="343" parent="331" name="car_id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="343" parent="331" name="parts_id">
+    <column id="344" parent="331" name="parts_id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="344" parent="331" name="FKjc9po1u4orqbrpi40liew629n">
+    <foreign-key id="345" parent="331" name="FKjc9po1u4orqbrpi40liew629n">
       <ColNames>car_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>cars</RefTableName>
     </foreign-key>
-    <foreign-key id="345" parent="331" name="FKojj375nky4heghv2im4k18mcx">
+    <foreign-key id="346" parent="331" name="FKojj375nky4heghv2im4k18mcx">
       <ColNames>parts_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>part</RefTableName>
     </foreign-key>
-    <index id="346" parent="331" name="PRIMARY">
+    <index id="347" parent="331" name="PRIMARY">
       <ColNames>car_id
 parts_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="347" parent="331" name="FKojj375nky4heghv2im4k18mcx">
+    <index id="348" parent="331" name="FKojj375nky4heghv2im4k18mcx">
       <ColNames>parts_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="348" parent="331" name="PRIMARY">
+    <key id="349" parent="331" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="349" parent="332" name="id">
+    <column id="350" parent="332" name="id">
       <AutoIncrement>31</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="350" parent="332" name="birth_date">
+    <column id="351" parent="332" name="birth_date">
       <DasType>datetime(6)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="351" parent="332" name="is_young_driver">
+    <column id="352" parent="332" name="is_young_driver">
       <DasType>bit(1)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="352" parent="332" name="name">
+    <column id="353" parent="332" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="353" parent="332" name="PRIMARY">
+    <index id="354" parent="332" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="354" parent="332" name="PRIMARY">
+    <key id="355" parent="332" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="355" parent="333" name="id">
+    <column id="356" parent="333" name="id">
       <AutoIncrement>132</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="356" parent="333" name="name">
+    <column id="357" parent="333" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="357" parent="333" name="price">
+    <column id="358" parent="333" name="price">
       <DasType>decimal(38,2 digit)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="358" parent="333" name="quantity">
+    <column id="359" parent="333" name="quantity">
       <DasType>bigint|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="359" parent="333" name="supplier_id">
+    <column id="360" parent="333" name="supplier_id">
       <DasType>bigint|0s</DasType>
       <Position>5</Position>
     </column>
-    <foreign-key id="360" parent="333" name="FK4kr1nol59rrtlta6pmd3312th">
+    <foreign-key id="361" parent="333" name="FK4kr1nol59rrtlta6pmd3312th">
       <ColNames>supplier_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>supplier</RefTableName>
     </foreign-key>
-    <index id="361" parent="333" name="PRIMARY">
+    <index id="362" parent="333" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="362" parent="333" name="FK4kr1nol59rrtlta6pmd3312th">
+    <index id="363" parent="333" name="FK4kr1nol59rrtlta6pmd3312th">
       <ColNames>supplier_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="363" parent="333" name="PRIMARY">
+    <key id="364" parent="333" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="364" parent="334" name="id">
+    <column id="365" parent="334" name="id">
       <AutoIncrement>359</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="365" parent="334" name="discount">
+    <column id="366" parent="334" name="discount">
       <DasType>double|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="366" parent="334" name="car_id">
+    <column id="367" parent="334" name="car_id">
       <DasType>bigint|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="367" parent="334" name="customer_id">
+    <column id="368" parent="334" name="customer_id">
       <DasType>bigint|0s</DasType>
       <Position>4</Position>
     </column>
-    <foreign-key id="368" parent="334" name="FKq3adj6qfdn3us3g25mlnsjwrv">
+    <foreign-key id="369" parent="334" name="FKq3adj6qfdn3us3g25mlnsjwrv">
       <ColNames>car_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>cars</RefTableName>
     </foreign-key>
-    <foreign-key id="369" parent="334" name="FKjw88ojfoqquyd9f1obip1ar0g">
+    <foreign-key id="370" parent="334" name="FKjw88ojfoqquyd9f1obip1ar0g">
       <ColNames>customer_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>customer</RefTableName>
     </foreign-key>
-    <index id="370" parent="334" name="PRIMARY">
+    <index id="371" parent="334" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="371" parent="334" name="FKq3adj6qfdn3us3g25mlnsjwrv">
+    <index id="372" parent="334" name="FKq3adj6qfdn3us3g25mlnsjwrv">
       <ColNames>car_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="372" parent="334" name="FKjw88ojfoqquyd9f1obip1ar0g">
+    <index id="373" parent="334" name="FKjw88ojfoqquyd9f1obip1ar0g">
       <ColNames>customer_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="373" parent="334" name="PRIMARY">
+    <key id="374" parent="334" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="374" parent="335" name="id">
+    <column id="375" parent="335" name="id">
       <AutoIncrement>32</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="375" parent="335" name="is_importer">
+    <column id="376" parent="335" name="is_importer">
       <DasType>bit(1)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="376" parent="335" name="name">
+    <column id="377" parent="335" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <index id="377" parent="335" name="PRIMARY">
+    <index id="378" parent="335" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="378" parent="335" name="PRIMARY">
+    <key id="379" parent="335" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="380" parent="336" name="supplier_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="381" parent="336" name="parts_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="382" parent="336" name="FKcs21tru28pgnm8tw353xiirvl">
+      <ColNames>supplier_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>supplier</RefTableName>
+    </foreign-key>
+    <foreign-key id="383" parent="336" name="FK8xhjr2nj55kpa7vytjrdd4i21">
+      <ColNames>parts_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>part</RefTableName>
+    </foreign-key>
+    <index id="384" parent="336" name="PRIMARY">
+      <ColNames>supplier_id
+parts_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="385" parent="336" name="UK_oi348p4pf5mbr8c1vkqad5fn0">
+      <ColNames>parts_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="386" parent="336" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="387" parent="336" name="UK_oi348p4pf5mbr8c1vkqad5fn0">
+      <UnderlyingIndexName>UK_oi348p4pf5mbr8c1vkqad5fn0</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

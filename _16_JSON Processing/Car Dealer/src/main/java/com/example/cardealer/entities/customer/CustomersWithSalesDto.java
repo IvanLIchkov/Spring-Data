@@ -1,44 +1,34 @@
 package com.example.cardealer.entities.customer;
 
 import com.example.cardealer.entities.sale.Sale;
-import jakarta.persistence.*;
+import com.google.gson.annotations.SerializedName;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
-@Table
-public class Customer {
+public class CustomersWithSalesDto {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SerializedName("Id")
     private Long id;
 
-    @Column
+    @SerializedName("Name")
     private String name;
 
-    @Column(name = "birth_date")
+    @SerializedName("BirthDate")
     private LocalDateTime birthDate;
 
-    @Column(name = "is_young_driver")
+    @SerializedName("UsYoungDriver")
     private boolean isYoungDriver;
 
-    @OneToMany(mappedBy = "customer")
-    private List<Sale> purchases;
+    @SerializedName("Sales")
+    private List<Sale> sales;
 
-    public Customer() {
-        this.purchases = new ArrayList<>();
+    public CustomersWithSalesDto() {
+        this.sales = new ArrayList<>();
     }
 
-    public Customer(String name, String birthDate, boolean isYoungDriver) {
-        this();
-        this.name = name;
-        setBirthDate(birthDate);
-        this.isYoungDriver = isYoungDriver;
-    }
 
     public Long getId() {
         return id;
@@ -60,9 +50,8 @@ public class Customer {
         return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
-
-        this.birthDate = LocalDateTime.parse(birthDate, DateTimeFormatter.ISO_LOCAL_DATE_TIME);
+    public void setBirthDate(LocalDateTime birthDate) {
+        this.birthDate = birthDate;
     }
 
     public boolean isYoungDriver() {
@@ -71,5 +60,13 @@ public class Customer {
 
     public void setYoungDriver(boolean youngDriver) {
         isYoungDriver = youngDriver;
+    }
+
+    public List<Sale> getSales() {
+        return sales;
+    }
+
+    public void setSales(List<Sale> sales) {
+        this.sales = sales;
     }
 }
