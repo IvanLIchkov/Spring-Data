@@ -10,6 +10,7 @@
         <module name="FootbalBettingDatabase" />
         <module name="SpringDataIntroductionExercise" />
         <module name="IntroductionToHibernate" />
+        <module name="_16_JSON Processing" />
         <module name="UserSystem" />
         <module name="SalesDatabase" />
         <module name="HibernateCodeFirst" />
@@ -25,6 +26,7 @@
         <module name="introtohibernate" />
         <module name="ORMFundamentals" />
         <module name="Hospital" />
+        <module name="Car Dealer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +43,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookshopSystem" options="-parameters" />
+      <module name="Car Dealer" options="-parameters" />
       <module name="Spring Data automappin Exe" options="-parameters" />
       <module name="SpringDataAutomapping" options="-parameters" />
       <module name="SpringDataIntroduction" options="-parameters" />
@@ -51,6 +54,7 @@
       <module name="_13_Springdataautomapping" options="-parameters" />
       <module name="_14_Spring Data Automapping Exercise" options="-parameters" />
       <module name="_14_SpringDataAutomappingExercise" options="-parameters" />
+      <module name="_16_JSON Processing" options="-parameters" />
       <module name="advquerying" options="-parameters" />
     </option>
   </component>
