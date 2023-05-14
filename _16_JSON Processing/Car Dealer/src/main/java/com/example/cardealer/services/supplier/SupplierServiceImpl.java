@@ -22,6 +22,6 @@ public class SupplierServiceImpl implements SupplierService {
     public List<SupplierNoImportFromAbroadDto> selectAllSupplierWithNoImport() {
         ModelMapper mapper = new ModelMapper();
         List<SupplierNoImportFromAbroadDto> supplierNoImportFromAbroadDtos = this.supplierRepository.selectAllThatDontImportParts();
-        return null;
+        return supplierNoImportFromAbroadDtos;
     }
 }

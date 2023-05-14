@@ -7,6 +7,16 @@ public class CarImportDto {
     private String model;
     private long travelledDistance;
 
+    public CarImportDto() {
+    }
+
+    public CarImportDto(String make, String model, long travelledDistance) {
+        this();
+        this.make = make;
+        this.model = model;
+        this.travelledDistance = travelledDistance;
+    }
+
     public String getMake() {
         return make;
     }

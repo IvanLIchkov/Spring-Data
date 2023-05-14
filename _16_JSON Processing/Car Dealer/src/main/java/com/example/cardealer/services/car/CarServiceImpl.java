@@ -1,6 +1,7 @@
 package com.example.cardealer.services.car;
 
 import com.example.cardealer.entities.car.Car;
+import com.example.cardealer.entities.car.CarWithPartsDto;
 import com.example.cardealer.entities.car.CarsExportDto;
 import com.example.cardealer.repositories.CarRepository;
 import org.modelmapper.ModelMapper;
@@ -29,5 +30,11 @@ public class CarServiceImpl implements CarService {
         List<CarsExportDto> collect = Arrays.stream(mapper.map(toyotaCars, CarsExportDto[].class)).collect(Collectors.toList());
 
         return collect;
+    }
+
+    @Override
+    public List<CarWithPartsDto> selectAllCarsWithParts() {
+        List<CarWithPartsDto> allCarsWithParts = this.carRepository.getAllCarsWithParts();
+        return allCarsWithParts;
     }
 }

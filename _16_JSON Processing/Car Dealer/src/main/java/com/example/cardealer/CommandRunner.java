@@ -36,7 +36,9 @@ public class CommandRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
 //        seedService.seedAll();
 //        printAllToyotaCars();
-        this.supplierService.selectAllSupplierWithNoImport();
+//        System.out.println(this.gson.toJson(this.supplierService.selectAllSupplierWithNoImport())); print all local suppliers
+        this.carService.selectAllCarsWithParts();
+
 
     }
 
