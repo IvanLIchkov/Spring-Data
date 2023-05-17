@@ -6,6 +6,9 @@
     </writeAnnotations>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/_18_XML Processing" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -27,6 +30,7 @@
         <option value="$PROJECT_DIR$/_14_Spring Data Automapping/pom.xml" />
         <option value="$PROJECT_DIR$/_16_JSON Processing/pom.xml" />
         <option value="$PROJECT_DIR$/_16_JSON Processing/Car Dealer/pom.xml" />
+        <option value="$PROJECT_DIR$/_18_XML Processing/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

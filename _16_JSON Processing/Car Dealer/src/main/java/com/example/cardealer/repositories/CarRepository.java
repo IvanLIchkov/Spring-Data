@@ -13,6 +13,6 @@ import java.util.List;
 public interface CarRepository extends JpaRepository<Car, Long> {
     List<Car> findAllByMakeLikeOrderByModelAscTravelledDistanceDesc(String make);
 
-    @Query("select new com.example.cardealer.entities.car.CarWithPartsDto(c.make,c.model,c.travelledDistance,c.parts) from Car c ")
+    @Query("select new com.example.cardealer.entities.car.CarWithPartsDto(c.make,c.model,c.travelledDistance, c.parts) from Car c ")
     List<CarWithPartsDto> getAllCarsWithParts();
 }
