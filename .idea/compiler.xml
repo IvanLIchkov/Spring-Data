@@ -18,6 +18,7 @@
         <module name="SpringDataIntroduction" />
         <module name="BookshopSystem" />
         <module name="_12_SpringDataAdvancedQueringExercise" />
+        <module name="exam" />
         <module name="BillsPaymentSystem" />
         <module name="GringottsDatabase" />
         <module name="_13_Springdataautomapping" />
@@ -27,6 +28,7 @@
         <module name="introtohibernate" />
         <module name="ORMFundamentals" />
         <module name="Hospital" />
+        <module name="Laptop Shop Exam 13 August 2021" />
         <module name="Car Dealer" />
       </profile>
     </annotationProcessing>
@@ -37,6 +39,7 @@
       <module name="_14_SpringDataAutomappingExercise" target="17" />
       <module name="ExerciseIntroductionToHibernate" target="18" />
       <module name="GringottsDatabse" target="18" />
+      <module name="Laptop Shop Exam 13 August 2021" target="16" />
       <module name="Spring Data automappin Exe" target="17" />
       <module name="WorkshopCustomOR" target="18" />
     </bytecodeTargetLevel>
@@ -45,6 +48,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookshopSystem" options="-parameters" />
       <module name="Car Dealer" options="-parameters" />
+      <module name="Laptop Shop Exam 13 August 2021" options="-parameters" />
       <module name="Spring Data automappin Exe" options="-parameters" />
       <module name="SpringDataAutomapping" options="-parameters" />
       <module name="SpringDataIntroduction" options="-parameters" />
@@ -58,6 +62,7 @@
       <module name="_16_JSON Processing" options="-parameters" />
       <module name="_18_XML Processing" options="-parameters" />
       <module name="advquerying" options="-parameters" />
+      <module name="exam" options="-parameters" />
     </option>
   </component>
 </project>

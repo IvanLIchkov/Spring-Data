@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="car_dealer" />
+            <name qname="product_shop_XML" />
           </node>
         </introspection-scope>
       </schema-mapping>

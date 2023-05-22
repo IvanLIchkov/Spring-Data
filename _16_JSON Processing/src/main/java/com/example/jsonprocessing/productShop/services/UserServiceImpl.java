@@ -1,9 +1,7 @@
 package com.example.jsonprocessing.productShop.services;
 
-import com.example.jsonprocessing.productShop.entities.products.ProductNameAndPriceDto;
-import com.example.jsonprocessing.productShop.entities.products.SoldProductsDto;
-import com.example.jsonprocessing.productShop.entities.users.*;
-import com.example.jsonprocessing.productShop.repositories.UserRepository;
+import com.product_shop.entities.products.SoldProductsDto;
+import com.product_shop.repositories.UserRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

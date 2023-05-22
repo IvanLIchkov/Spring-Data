@@ -1,8 +1,8 @@
 package com.example.jsonprocessing.productShop.services;
 
 
-import com.example.jsonprocessing.productShop.entities.users.UserFirstLastNamesAgeAndSoldProductsNameAndPriceDto;
-import com.example.jsonprocessing.productShop.entities.users.UserWithSoldProductsDto;
+import com.product_shop.entities.users.UserFirstLastNamesAgeAndSoldProductsNameAndPriceDto;
+import com.product_shop.entities.users.UserWithSoldProductsDto;
 
 import java.util.List;
 

@@ -1,16 +1,16 @@
 package com.example.jsonprocessing.productShop.services;
 
-import com.example.jsonprocessing.productShop.entities.categories.CategoriesImportDto;
-import com.example.jsonprocessing.productShop.entities.categories.Category;
-import com.example.jsonprocessing.productShop.entities.products.Product;
-import com.example.jsonprocessing.productShop.entities.products.ProductImportDto;
-import com.example.jsonprocessing.productShop.entities.users.User;
-import com.example.jsonprocessing.productShop.entities.users.UserImportDto;
-import com.example.jsonprocessing.productShop.repositories.CategoryRepository;
-import com.example.jsonprocessing.productShop.repositories.ProductRepository;
-import com.example.jsonprocessing.productShop.repositories.UserRepository;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.product_shop.entities.categories.CategoriesImportDto;
+import com.product_shop.entities.categories.Category;
+import com.product_shop.entities.products.Product;
+import com.product_shop.entities.products.ProductImportDto;
+import com.product_shop.entities.users.User;
+import com.product_shop.entities.users.UserImportDto;
+import com.product_shop.repositories.CategoryRepository;
+import com.product_shop.repositories.ProductRepository;
+import com.product_shop.repositories.UserRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

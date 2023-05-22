@@ -1,13 +1,8 @@
 package com.example.jsonprocessing.productShop.entities.categories;
 
-import com.example.jsonprocessing.productShop.entities.products.Product;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Size;
 
-import java.util.HashSet;
-import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 @Entity
 @Table(name = "categories")

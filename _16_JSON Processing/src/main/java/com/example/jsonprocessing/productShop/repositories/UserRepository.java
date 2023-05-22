@@ -1,8 +1,6 @@
 package com.example.jsonprocessing.productShop.repositories;
 
-import com.example.jsonprocessing.productShop.entities.users.User;
-import com.example.jsonprocessing.productShop.entities.users.UserImportDto;
-
+import com.product_shop.entities.users.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

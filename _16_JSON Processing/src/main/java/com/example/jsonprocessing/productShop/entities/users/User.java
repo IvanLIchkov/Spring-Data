@@ -1,6 +1,6 @@
 package com.example.jsonprocessing.productShop.entities.users;
 
-import com.example.jsonprocessing.productShop.entities.products.Product;
+import com.product_shop.entities.products.Product;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;

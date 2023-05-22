@@ -1,8 +1,8 @@
 package com.example.jsonprocessing.productShop.services;
 
-import com.example.jsonprocessing.productShop.entities.categories.CategoryByProductsCountDto;
-import com.example.jsonprocessing.productShop.entities.products.ProductWithoutBuyerDto;
-import com.example.jsonprocessing.productShop.repositories.ProductRepository;
+import com.product_shop.entities.categories.CategoryByProductsCountDto;
+import com.product_shop.entities.products.ProductWithoutBuyerDto;
+import com.product_shop.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

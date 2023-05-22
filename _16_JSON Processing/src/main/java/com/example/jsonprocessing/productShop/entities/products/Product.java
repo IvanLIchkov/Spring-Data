@@ -1,7 +1,7 @@
 package com.example.jsonprocessing.productShop.entities.products;
 
-import com.example.jsonprocessing.productShop.entities.categories.Category;
-import com.example.jsonprocessing.productShop.entities.users.User;
+import com.product_shop.entities.categories.Category;
+import com.product_shop.entities.users.User;
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;

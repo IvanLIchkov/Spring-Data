@@ -1,7 +1,5 @@
 package com.example.jsonprocessing.productShop.entities.products;
 
-import org.springframework.beans.factory.annotation.Value;
-
 import java.math.BigDecimal;
 
 public class ProductWithoutBuyerDto {

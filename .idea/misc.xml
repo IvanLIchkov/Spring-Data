@@ -31,10 +31,13 @@
         <option value="$PROJECT_DIR$/_16_JSON Processing/pom.xml" />
         <option value="$PROJECT_DIR$/_16_JSON Processing/Car Dealer/pom.xml" />
         <option value="$PROJECT_DIR$/_18_XML Processing/pom.xml" />
+        <option value="$PROJECT_DIR$/Laptop Shop Exam 13 August 2021/pom.xml" />
+        <option value="$PROJECT_DIR$/LaptopShopExamAugust2021/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Laptop Shop Exam 13 August 2021/pom.xml" />
         <option value="$PROJECT_DIR$/Spring Data automappin Exe/pom.xml" />
         <option value="$PROJECT_DIR$/_04.Workshop Custom OR/pom.xml" />
         <option value="$PROJECT_DIR$/_14_Spring Data Automapping Exercise/pom.xml" />

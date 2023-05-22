@@ -1,17 +1,16 @@
 package com.example.jsonprocessing.productShop;
 
-import com.example.jsonprocessing.productShop.entities.categories.CategoryByProductsCountDto;
-import com.example.jsonprocessing.productShop.entities.categories.XMLCategoryStatsList;
-import com.example.jsonprocessing.productShop.entities.categories.XmlCategoryStatsDto;
-import com.example.jsonprocessing.productShop.entities.products.ProductWithoutBuyerDto;
-import com.example.jsonprocessing.productShop.entities.users.UserFirstLastNamesAgeAndSoldProductsNameAndPriceDto;
-import com.example.jsonprocessing.productShop.entities.users.UserWithSoldProductsDto;
-import com.example.jsonprocessing.productShop.services.CategoryService;
-import com.example.jsonprocessing.productShop.services.ProductService;
-import com.example.jsonprocessing.productShop.services.SeedService;
-import com.example.jsonprocessing.productShop.services.UserService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.product_shop.entities.categories.CategoryByProductsCountDto;
+import com.product_shop.entities.categories.XMLCategoryStatsList;
+import com.product_shop.entities.categories.XmlCategoryStatsDto;
+import com.product_shop.entities.products.ProductWithoutBuyerDto;
+import com.product_shop.entities.users.UserWithSoldProductsDto;
+import com.product_shop.services.CategoryService;
+import com.product_shop.services.ProductService;
+import com.product_shop.services.SeedService;
+import com.product_shop.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -21,7 +20,6 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.ByteArrayInputStream;
-import java.io.File;
 import java.util.List;
 import java.util.stream.Collectors;
 

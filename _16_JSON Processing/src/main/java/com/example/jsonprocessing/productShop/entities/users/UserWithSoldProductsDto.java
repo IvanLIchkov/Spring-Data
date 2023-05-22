@@ -1,6 +1,6 @@
 package com.example.jsonprocessing.productShop.entities.users;
 
-import com.example.jsonprocessing.productShop.entities.products.SoldProductDto;
+import com.product_shop.entities.products.SoldProductDto;
 
 import java.util.List;
 
