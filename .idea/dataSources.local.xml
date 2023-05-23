@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="product_shop_XML" />
+            <name qname="player_finder" />
           </node>
         </introspection-scope>
       </schema-mapping>

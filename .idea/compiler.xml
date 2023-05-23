@@ -16,6 +16,7 @@
         <module name="SalesDatabase" />
         <module name="HibernateCodeFirst" />
         <module name="SpringDataIntroduction" />
+        <module name="football" />
         <module name="BookshopSystem" />
         <module name="_12_SpringDataAdvancedQueringExercise" />
         <module name="exam" />
@@ -63,6 +64,7 @@
       <module name="_18_XML Processing" options="-parameters" />
       <module name="advquerying" options="-parameters" />
       <module name="exam" options="-parameters" />
+      <module name="football" options="-parameters" />
     </option>
   </component>
 </project>
