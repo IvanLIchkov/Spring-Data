@@ -13,6 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
+            <name qname="first_workshop" />
             <name qname="player_finder" />
           </node>
         </introspection-scope>
