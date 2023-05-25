@@ -13,8 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="first_workshop" />
-            <name qname="player_finder" />
+            <name qname="hiberspring_db" />
           </node>
         </introspection-scope>
       </schema-mapping>
