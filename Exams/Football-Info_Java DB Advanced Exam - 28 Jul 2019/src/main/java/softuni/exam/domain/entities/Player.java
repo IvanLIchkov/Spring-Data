@@ -40,7 +40,7 @@ public class Player {
     @Length(min = 2, max = 2)
     private String position;
 
-    @OneToOne
+    @ManyToOne
     @NotNull
     private Picture picture;
 
