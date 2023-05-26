@@ -1,9 +1,18 @@
 package softuni.exam.service;
 
 import org.springframework.stereotype.Service;
+import softuni.exam.repository.PictureRepository;
 
 @Service
 public class PictureServiceImpl implements PictureService {
+
+    private final PictureRepository pictureRepository;
+    private final XmlR
+
+    public PictureServiceImpl(PictureRepository pictureRepository) {
+        this.pictureRepository = pictureRepository;
+    }
+
     @Override
     public String importPictures() {
         //TODO Implement me

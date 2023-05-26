@@ -5,10 +5,7 @@ import com.google.gson.GsonBuilder;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import softuni.exam.util.FileUtil;
-import softuni.exam.util.FileUtilImpl;
-import softuni.exam.util.ValidatorUtil;
-import softuni.exam.util.ValidatorUtilImpl;
+import softuni.exam.util.*;
 
 import javax.validation.Validation;
 import javax.validation.Validator;
@@ -24,6 +21,11 @@ public class ApplicationBeanConfiguration {
     @Bean
     public Gson gson() {
         return new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
+    }
+
+    @Bean
+    public XmlReader xmlReader(){
+        return new XmlReaderImpl();
     }
 
     @Bean
