@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 import softuni.exam.domain.entities.Picture;
 import softuni.exam.domain.entities.Player1;
 import softuni.exam.domain.entities.Team;
+import softuni.exam.domain.entities.dto.playerDto.ExportPlayerDto;
+import softuni.exam.domain.entities.dto.playerDto.ExportPlayerWithSalaryDto;
 import softuni.exam.domain.entities.dto.playerDto.ImportPlayerDto;
 import softuni.exam.repository.PictureRepository;
 import softuni.exam.repository.PlayerRepository;
@@ -13,11 +15,13 @@ import softuni.exam.repository.TeamRepository;
 import softuni.exam.util.ValidatorUtilImpl;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class PlayerServiceImpl implements PlayerService {
@@ -83,13 +87,26 @@ public class PlayerServiceImpl implements PlayerService {
 
     @Override
     public String exportPlayersWhereSalaryBiggerThan() {
-        //TODO Implement me
-        return "";
+        List<ExportPlayerWithSalaryDto> players = this.playerRepository.findAllBySalaryAfterOrderBySalaryDesc(BigDecimal.valueOf(10000));
+
+        List<String> output = players.stream().map(ExportPlayerWithSalaryDto::toString).collect(Collectors.toList());
+
+        return String.join("\n", output);
     }
 
     @Override
     public String exportPlayersInATeam() {
         String teamName = "North Hub";
-        return "";
+        List<ExportPlayerDto> players = this.playerRepository.findAllByTeamNameOrderById(teamName);
+//        StringBuilder output = new StringBuilder(String.format("Team: %s%n",teamName));
+
+        List<String> output = new ArrayList<>();
+        output.add(String.format("Team: %s%n",teamName));
+
+        for (ExportPlayerDto player : players) {
+            output.add(player.toString());
+        }
+
+        return String.join("",output);
     }
 }
