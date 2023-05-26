@@ -33,7 +33,7 @@ public class ApplicationBeanConfiguration {
         return Validation.buildDefaultValidatorFactory().getValidator();
     }
 
-    @Bean
+    @Bean("validator")
     public ValidatorUtil validationUtil() {
         return new ValidatorUtilImpl(validator());
     }
