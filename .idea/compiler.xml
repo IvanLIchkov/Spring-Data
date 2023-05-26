@@ -23,6 +23,7 @@
         <module name="_18_XML Processing" />
         <module name="SpringDataIntroduction" />
         <module name="_12_SpringDataAdvancedQueringExercise" />
+        <module name="exam" />
         <module name="BillsPaymentSystem" />
         <module name="GringottsDatabase" />
         <module name="_13_Springdataautomapping" />
@@ -38,7 +39,6 @@
       <module name="_11_SpringDataAdvancedQuering" target="17" />
       <module name="_14_Spring Data Automapping Exercise" target="17" />
       <module name="_14_SpringDataAutomappingExercise" target="17" />
-      <module name="exam" target="17" />
       <module name="ExerciseIntroductionToHibernate" target="18" />
       <module name="football" target="16" />
       <module name="GringottsDatabse" target="18" />

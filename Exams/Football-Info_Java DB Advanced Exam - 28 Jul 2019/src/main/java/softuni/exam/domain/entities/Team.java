@@ -1,6 +1,6 @@
 package softuni.exam.domain.entities;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotNull;
