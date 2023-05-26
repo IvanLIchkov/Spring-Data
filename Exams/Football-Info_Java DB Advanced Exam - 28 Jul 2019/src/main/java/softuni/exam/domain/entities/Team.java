@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 @Table(name = "teams")
 public class Team {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private Integer id;
 
     @Column

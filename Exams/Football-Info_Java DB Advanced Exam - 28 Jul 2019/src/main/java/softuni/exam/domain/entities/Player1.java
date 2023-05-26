@@ -10,9 +10,9 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "palyers")
-public class Player {
+public class Player1 {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "first_name")
@@ -48,7 +48,7 @@ public class Player {
     @NotNull
     private Team team;
 
-    public Player() {
+    public Player1() {
     }
 
     public void setId(Integer id) {

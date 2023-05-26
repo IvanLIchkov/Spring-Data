@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 @Table(name = "pictures")
 public class Picture {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
