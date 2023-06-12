@@ -22,6 +22,7 @@
         <module name="_16_JSON Processing" />
         <module name="_18_XML Processing" />
         <module name="SpringDataIntroduction" />
+        <module name="exam (1) (soft-uni)" />
         <module name="_12_SpringDataAdvancedQueringExercise" />
         <module name="exam" />
         <module name="BillsPaymentSystem" />
@@ -67,6 +68,7 @@
       <module name="_18_XML Processing" options="-parameters" />
       <module name="advquerying" options="-parameters" />
       <module name="exam" options="-parameters" />
+      <module name="exam (1) (soft-uni)" options="-parameters" />
       <module name="football" options="-parameters" />
       <module name="hiberspring" options="-parameters" />
     </option>

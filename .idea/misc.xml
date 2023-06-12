@@ -9,6 +9,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/_18_XML Processing" />
     <file type="web" url="file://$PROJECT_DIR$/Exams/Football-Info_Java DB Advanced Exam - 28 Jul 2019" />
+    <file type="web" url="file://$PROJECT_DIR$/Exams/RealDeal Java DB Spring Data Exam - 29 Mar 2020" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -39,6 +40,7 @@
         <option value="$PROJECT_DIR$/HiberSpring Java DB Advanced Exam - 20 Dec 2018/pom.xml" />
         <option value="$PROJECT_DIR$/Exams/Hiberspring Inc Java DB Advanced Exam - 20 Dec 2018/pom.xml" />
         <option value="$PROJECT_DIR$/Exams/Football-Info_Java DB Advanced Exam - 28 Jul 2019/pom.xml" />
+        <option value="$PROJECT_DIR$/Exams/RealDeal Java DB Spring Data Exam - 29 Mar 2020/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
