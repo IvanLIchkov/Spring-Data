@@ -15,6 +15,7 @@
         <module name="BookshopSystem" />
         <module name="hiberspring" />
         <module name="advquerying" />
+        <module name="exam (2) (soft-uni)" />
         <module name="introtohibernate" />
         <module name="Hospital" />
         <module name="Car Dealer" />
@@ -69,6 +70,7 @@
       <module name="advquerying" options="-parameters" />
       <module name="exam" options="-parameters" />
       <module name="exam (1) (soft-uni)" options="-parameters" />
+      <module name="exam (2) (soft-uni)" options="-parameters" />
       <module name="football" options="-parameters" />
       <module name="hiberspring" options="-parameters" />
     </option>
