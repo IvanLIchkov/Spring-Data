@@ -9,6 +9,7 @@ import java.io.StringReader;
 
 @Component
 public class XmlReaderImpl implements XmlReader {
+
     @Override
     public <O> O parseXml(Class<O> objectClass, String xmlFile) {
         try {
